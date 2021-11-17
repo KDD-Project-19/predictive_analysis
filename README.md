@@ -137,6 +137,41 @@ The dataset had values varying from a high range and were in a need for standard
 
 Exploratory Data Analysis has been performed on the dataset showing relation to domain and problem statement. Visualization of the dataset has been done by plotting several graphs helping us to find the relationship between the data’s present in the dataset and to analyse the dataset for a better understanding. 
 
+Visualizations have been done to compare these aspects.
+
+Brand of vaccinations vs the dose taken - Bar Plot
+
+The comparison between the brand of vaccinations and the dose of vaccine would help us get a clarity about the preferred brand of vaccine as well as the dose of the vaccine taken. As vaccines are a key part of our research, analysing this statistic is useful to us.
+
+Region vs Positive cases - Violin Plot
+
+The comparison between Region and positive cases is to find the number of cases per region.
+
+Region vs Vaccination count - Strip Plot
+
+The comparison between Region and vaccination count gives us information about the number of people vaccinated in a particular region.
+
+Positive cases vs Deaths - Joint Plot
+
+The comparison between the positive cases and deaths provides data about the number of people who died after getting affected by covid-19.
+
+Region vs Death - Swarm Plot
+
+The comparison between region and death would help us find the number of people who died due to covid-19 in a particular region.
+
+These are few comparisons that are necessary for the statistical analysis of the covid-19 data and visualizing them would help us to correlate and understand the data better.
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
 
 
  
