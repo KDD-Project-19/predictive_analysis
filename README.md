@@ -162,6 +162,7 @@ The comparison between region and death would help us find the number of people 
 These are few comparisons that are necessary for the statistical analysis of the covid-19 data and visualizing them would help us to correlate and understand the data better.
  
 
+![alt text](https://github.com/KDD-Project-19/predictive_analysis/blob/download.png?raw=true)
 
 
  
