@@ -164,6 +164,8 @@ These are few comparisons that are necessary for the statistical analysis of the
 
 ![alt text](https://github.com/KDD-Project-19/predictive_analysis/download.png?raw=true)
 
+![plot](./download.png)
+
 
  
  
