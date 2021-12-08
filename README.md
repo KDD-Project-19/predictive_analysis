@@ -206,6 +206,7 @@ The future scope is to utilize the economic, cultural, and geographical features
 We could also work on finding the most effective vaccine which is widely chosen, by analyzing the count of the vaccine in a particular region.
 
 **PRESENTATION LINK**
+
 https://www.youtube.com/watch?v=8HlPzbJIz08
 
 
