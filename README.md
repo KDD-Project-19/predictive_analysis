@@ -166,8 +166,13 @@ These are few comparisons that are necessary for the statistical analysis of the
 
 ![plot](./download.png)
 
+**Linear regression:**
 
- 
+Linear regression quantifies the relationship between one or more predictor variable(s) and one outcome variable. Linear regression is commonly used for predictive analysis and modeling.
+
+**Conclusion:**
+
+The main objective here is to perform a descriptive analysis on merged daily data for Belgium people of all ages. Correlations between positive cases, hospitalizations, and vaccinations will be examined. To predict the progression of the disease as vaccinations increase, we used a linear regression model. By the linear regression model, we made a out of available data with Mean absolute error (MAE), Mean square error (MSE)and Root mean square error (RMSE) are very low. We suggested that predictive values are near real and further adding any other in the model can be extended by the geographical and economical to the features and make it more robust. After analyzing the data from data of Belgium We found that if more people take the vaccination, then the number of positive cases decreases. 	
  
  
  
