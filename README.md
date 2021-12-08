@@ -164,11 +164,6 @@ Region vs Death - Swarm Plot
 The comparison between region and death would help us find the number of people who died due to covid-19 in a particular region.
 
 These are few comparisons that are necessary for the statistical analysis of the covid-19 data and visualizing them would help us to correlate and understand the data better.
- 
-
-![alt text](https://github.com/KDD-Project-19/predictive_analysis/download.png?raw=true)
-
-![plot](./download.png)
 
 **Modelling - Linear Regression:**
 
@@ -186,9 +181,9 @@ We have used CRISP-DM Process for data mining and did Exploratory data analysis 
 
 We have measured the results and efficiency of the model using different error detecting methods:-
 
-Mean absolute error (MAE):0.4661438639788965
-Mean square error (MSE): 0.8588527950844399
-Root mean square error (RMSE): 0.9267431117005618
+Mean absolute error (MAE):0.4661438639788965,
+Mean square error (MSE): 0.8588527950844399,
+Root mean square error (RMSE): 0.9267431117005618,
 
 Which are low values that indicate the model has accurately predicted the labels.
  
