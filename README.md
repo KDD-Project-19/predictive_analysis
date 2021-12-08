@@ -132,6 +132,11 @@ Our dataset consists of a few object data types which need to be converted into 
 
 The dataset had values varying from a high range and were in a need for standardising. So, the data would be standardized using StandardScaler.
 
+**Removal of Outliers:**
+
+The dataset had outliers, which gave us extremely high RMSE value, making our model unfit, so they had to be removed.
+
+
 **Exploratory Data Analysis:**
 
 Exploratory Data Analysis has been performed on the dataset showing relation to domain and problem statement. Visualization of the dataset has been done by plotting several graphs helping us to find the relationship between the data’s present in the dataset and to analyse the dataset for a better understanding. 
@@ -159,6 +164,11 @@ Region vs Death - Swarm Plot
 The comparison between region and death would help us find the number of people who died due to covid-19 in a particular region.
 
 These are few comparisons that are necessary for the statistical analysis of the covid-19 data and visualizing them would help us to correlate and understand the data better.
+ 
+
+![alt text](https://github.com/KDD-Project-19/predictive_analysis/download.png?raw=true)
+
+![plot](./download.png)
 
 **Modelling - Linear Regression:**
 
