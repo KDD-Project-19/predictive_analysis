@@ -108,8 +108,6 @@ Covid19BE_HOSP.csv
 
 Covid19BE_MORT.csv
 
-Covid19BE_NH.csv
-
 Covid19BE_tests.csv
 
 Covid19BE_VACC.csv
