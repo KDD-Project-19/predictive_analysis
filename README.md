@@ -167,19 +167,29 @@ These are few comparisons that are necessary for the statistical analysis of the
 ![plot](./download.png)
 
 **Modelling - Linear Regression:**
+
 Linear regression quantifies the relationship between one or more predictor variable(s) and one outcome variable. Linear regression is used here for the predictive analysis of our dataset. 
+
 Our dataset is split into training and test datasets with a ratio of 70:30. The training and test is a dataset fitted into the linear regression model to predict the new positive cases of Covid-19 and the count of vaccinations.
+
 A scatter plot is used to represent a comparison between the number of positive cases and the vaccination rate. The scatter plot gives us a clear picture of the decrease in the number of cases with the increase in vaccination rates.
+
 Hence, this helps us conclude that the number of cases will decrease with the increase in vaccination rate as people will be immune to the disease and would be safer if vaccinated properly.
-Evaluation:
+
+**Evaluation:**
+
 We have used CRISP-DM Process for data mining and did Exploratory data analysis on the data, on certain aspects of it, providing us with the visualizable graphical correlation between particular data details, presenting us with Covid-19 statistics of Belgium. We have also done a predictive analysis on the number of Covid-19 positive cases and compared it to the vaccination count to check whether there is a decrease in the test cases with the increase in the vaccination rate.
+
 We have measured the results and efficiency of the model using different error detecting methods:-
+
 Mean absolute error (MAE):0.4661438639788965
 Mean square error (MSE): 0.8588527950844399
 Root mean square error (RMSE): 0.9267431117005618
+
 Which are low values that indicate the model has accurately predicted the labels.
  
 **Conclusion:**
+
 The motto is to perform predictive analysis on merged daily data for Belgium people of all age groups. We have taken the data from the Belgium government website since it would be the most accurate and would yield robust ground results from our model.
 
 The datasets we have are the individual data with the details about the hospitalizations, vaccines, mortality, and tests-related information. The Primary key columns that could be used for the datasets are not the same, hence we have merged datasets with the use of unique yet similar columns as pairs, dropped unwanted data columns, and ended up aggregating them all together.
@@ -195,6 +205,7 @@ Instructions to use the project: The dataset has also been provided along with t
 **Future Work:**
 
 The future scope is to utilize the economic, cultural, and geographical features in our dataset to more accurately predict the reason for the spread of disease. 
+
 We could also work on finding the most effective vaccine which is widely chosen, by analyzing the count of the vaccine in a particular region.
 
 
