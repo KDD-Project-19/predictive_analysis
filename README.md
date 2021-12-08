@@ -2,7 +2,6 @@
 
 This project is part of the Knowledge Discovery in Databases (ITCS - 6162) course from University of North Carolina at Charlotte.
 
-Project Status: On Progress
 
 **INTRODUCTION:**
 
@@ -129,7 +128,7 @@ On merging the dataset, we found a few duplicate data and unwanted columns of da
 Categorical Data Conversion:
 Our dataset consists of a few object data types which need to be converted into categorical data for further EDA and Predicting purposes. So, the data columns like REGION, BRAND, and DOSE were converted into categorical data.
 
-**Standardising Data:**
+**Standardizing Data:**
 
 The dataset had values varying from a high range and were in a need for standardising. So, the data would be standardized using StandardScaler.
 
