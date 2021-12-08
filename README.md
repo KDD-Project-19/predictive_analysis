@@ -166,13 +166,39 @@ These are few comparisons that are necessary for the statistical analysis of the
 
 ![plot](./download.png)
 
-**Linear regression:**
-
-Linear regression quantifies the relationship between one or more predictor variable(s) and one outcome variable. Linear regression is commonly used for predictive analysis and modeling.
-
+**Modelling - Linear Regression:**
+Linear regression quantifies the relationship between one or more predictor variable(s) and one outcome variable. Linear regression is used here for the predictive analysis of our dataset. 
+Our dataset is split into training and test datasets with a ratio of 70:30. The training and test is a dataset fitted into the linear regression model to predict the new positive cases of Covid-19 and the count of vaccinations.
+A scatter plot is used to represent a comparison between the number of positive cases and the vaccination rate. The scatter plot gives us a clear picture of the decrease in the number of cases with the increase in vaccination rates.
+Hence, this helps us conclude that the number of cases will decrease with the increase in vaccination rate as people will be immune to the disease and would be safer if vaccinated properly.
+Evaluation:
+We have used CRISP-DM Process for data mining and did Exploratory data analysis on the data, on certain aspects of it, providing us with the visualizable graphical correlation between particular data details, presenting us with Covid-19 statistics of Belgium. We have also done a predictive analysis on the number of Covid-19 positive cases and compared it to the vaccination count to check whether there is a decrease in the test cases with the increase in the vaccination rate.
+We have measured the results and efficiency of the model using different error detecting methods:-
+Mean absolute error (MAE):0.4661438639788965
+Mean square error (MSE): 0.8588527950844399
+Root mean square error (RMSE): 0.9267431117005618
+Which are low values that indicate the model has accurately predicted the labels.
+ 
 **Conclusion:**
+The motto is to perform predictive analysis on merged daily data for Belgium people of all age groups. We have taken the data from the Belgium government website since it would be the most accurate and would yield robust ground results from our model.
 
-The main objective here is to perform a descriptive analysis on merged daily data for Belgium people of all ages. Correlations between positive cases, hospitalizations, and vaccinations will be examined. To predict the progression of the disease as vaccinations increase, we used a linear regression model. By the linear regression model, we made a out of available data with Mean absolute error (MAE), Mean square error (MSE)and Root mean square error (RMSE) are very low. We suggested that predictive values are near real and further adding any other in the model can be extended by the geographical and economical to the features and make it more robust. After analyzing the data from data of Belgium We found that if more people take the vaccination, then the number of positive cases decreases. 	
+The datasets we have are the individual data with the details about the hospitalizations, vaccines, mortality, and tests-related information. The Primary key columns that could be used for the datasets are not the same, hence we have merged datasets with the use of unique yet similar columns as pairs, dropped unwanted data columns, and ended up aggregating them all together.
+
+There is a lot of gap between the available Covid-19 data and vaccination data, since covid-19 cases started in March 2020 but vaccination only started after late September 2020, to overcome this we have added some default data values for the missing data in the vaccination information.
+
+As for the data preparation, we had to perform data cleaning such as removal of null values, removal of unwanted columns, removal of duplicate values, grouping the datasets concerning a unique key and merging them, categorizing the data, removal of outliers, standardizing the data. On preparing the data with the above-mentioned works, we get our final dataset with no unwanted or repeated value which would be accurate and would have no discrepancies.
+
+We evaluated our model on the basis of MAE, MSE, RSME and got good results from it by obtaining low respective values as mentioned in the evaluation.
+
+Instructions to use the project: The dataset has also been provided along with the source code file(ipynb file). It has to be downloaded and imported into the ipynb file which is to run on a jupyter notebook. On executing the notebook, the user would be able to use our work and would be able to modify it to their needs.
+
+**Future Work:**
+
+The future scope is to utilize the economic, cultural, and geographical features in our dataset to more accurately predict the reason for the spread of disease. 
+We could also work on finding the most effective vaccine which is widely chosen, by analyzing the count of the vaccine in a particular region.
+
+
+
  
  
  
